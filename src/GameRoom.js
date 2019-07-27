@@ -19,7 +19,7 @@ class GameRoom extends Component {
 	}
 
 	render() {
-		console.log(this.props);
+		//console.log(this.props);
 		const { gameID, playerID, playerCredentials } = this.props.location.state;
 		return (
 			<div>

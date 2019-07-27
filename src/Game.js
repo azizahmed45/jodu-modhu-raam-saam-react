@@ -1,4 +1,4 @@
-import { Game } from 'boardgame.io/core';
+import { Game, PlayerView } from 'boardgame.io/core';
 
 const CARD_NAMES = {
 	JODU: 'jodu',

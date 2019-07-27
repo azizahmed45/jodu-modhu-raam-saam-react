@@ -34,7 +34,7 @@ class Board extends Component {
 	}
 
 	render() {
-		// console.log(this.props);
+		//console.log(this.props);
 
 		return (
 			<div className={'board-container column'}>
@@ -46,6 +46,8 @@ class Board extends Component {
 				<div className="card-container row">{this.renderCard(this.getPlayerByPosition(0))}</div>
 			</div>
 		);
+
+		//return <div>{this.renderCard(this.props.playerID)}</div>;
 	}
 }
 
