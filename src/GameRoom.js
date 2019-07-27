@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { Client } from 'boardgame.io/react';
-import { JMRS } from './game';
+import { JMRS } from './Game';
 import Board from './Board';
 
 const JMRSClient = Client({
