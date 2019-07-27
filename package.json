@@ -7,7 +7,7 @@
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "webpack-dev-server --mode development",
 		"build": "webpack --mode production",
-		"heroku-postbuild": "serve -s public -l process.env.PORT || 3000"
+		"heroku-postbuild": "serve -s public -l 3000"
 	},
 	"author": "",
 	"license": "ISC",
